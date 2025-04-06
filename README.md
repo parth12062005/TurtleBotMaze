@@ -129,7 +129,7 @@ After the simulation starts, you can further experiment with teleoperation, SLAM
    ```
    - ![RViz View](images/rviz_image.png)
   
-**Also read official turtlebot3 documentation for more details**
+**Also read official TurtleBot3 documentation for more details**
 
 ## Competition Details
 
