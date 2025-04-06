@@ -1,5 +1,3 @@
----
-
 # ROS Navigator Challenge
 
 Welcome to the ROS Navigator Challenge – where code meets navigation! This competition requires participants to develop an efficient ROS-based navigation algorithm for a simulated TurtleBot in a dynamically generated maze. The goal is to autonomously guide your bot from the starting point to the centre of the maze with the fewest possible steps.
@@ -79,7 +77,8 @@ ros2 launch turtlebot3_gazebo turtlebot3_maze.launch.py
 
 You should see a simulation similar to the image below:
 
-![Simulation Screenshot](images/simulation_image.png)  
+![Simulation Screenshot](images/simulation_image.png)
+
 Once the simulation is running, you can list the active ROS topics with:
 
 ```bash
@@ -102,6 +101,35 @@ The expected topics include:
 - `/tf_static`
 
 Pay particular attention to `/odom`, `/imu`, and `/scan` to generate appropriate commands for `/cmd_vel`.
+
+## Additional Commands for Experimentation
+
+After the simulation starts, you can further experiment with teleoperation, SLAM using Cartographer, and visualization using RViz:
+
+1. **Teleoperation:**  
+   To manually control your TurtleBot, launch the teleop keyboard:
+
+   ```bash
+   ros2 run turtlebot3_teleop teleop_keyboard
+   ```
+
+2. **Cartographer SLAM:**  
+   To enable Cartographer for SLAM, run:
+
+   ```bash
+   ros2 launch turtlebot3_cartographer cartographer.launch.py
+   ```
+
+3. **RViz Visualization:**  
+   For visualization, open RViz with the provided configuration:
+
+   ```bash
+   rviz2 -d ros2_ws/src/TurtleBotMaze/turtlebot3_simulations/turtlebot3_gazebo/rviz/tb3_gazebo.rviz
+   ```
+   
+
+   - ![Cartographer View](images/cartographer_image.png)
+   - ![RViz View](images/rviz_image.png)
 
 ## Competition Details
 
@@ -187,4 +215,3 @@ Pay particular attention to `/odom`, `/imu`, and `/scan` to generate appropriate
   Phone: +91 9369573768  
   Email: 2023uce0062@iitjammu.ac.in
 
----
