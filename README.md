@@ -80,8 +80,6 @@ ros2 launch turtlebot3_gazebo turtlebot3_maze.launch.py
 You should see a simulation similar to the image below:
 
 ![Simulation Screenshot](images/simulation_image.png)  
-*Replace `path/to/simulation_image.png` with the actual image path.*
-
 Once the simulation is running, you can list the active ROS topics with:
 
 ```bash
