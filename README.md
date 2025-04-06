@@ -119,6 +119,7 @@ After the simulation starts, you can further experiment with teleoperation, SLAM
    ```bash
    ros2 launch turtlebot3_cartographer cartographer.launch.py
    ```
+   - ![Cartographer View](images/cartographer_image.png)
 
 3. **RViz Visualization:**  
    For visualization, open RViz with the provided configuration:
@@ -126,9 +127,6 @@ After the simulation starts, you can further experiment with teleoperation, SLAM
    ```bash
    rviz2 -d ros2_ws/src/TurtleBotMaze/turtlebot3_simulations/turtlebot3_gazebo/rviz/tb3_gazebo.rviz
    ```
-   
-
-   - ![Cartographer View](images/cartographer_image.png)
    - ![RViz View](images/rviz_image.png)
 
 ## Competition Details
