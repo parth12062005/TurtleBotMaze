@@ -1,5 +1,3 @@
-Hey parth sir, here's the updated README with additional recommendations for SLAM:
-
 ---
 
 # ROS Navigator Challenge
@@ -192,5 +190,3 @@ Pay particular attention to `/odom`, `/imu`, and `/scan` to generate appropriate
   Email: 2023uce0062@iitjammu.ac.in
 
 ---
-
-This updated `README.md` now includes more comprehensive SLAM recommendations. Let me know if you need any further modifications, parth sir!
