@@ -1,6 +1,6 @@
 # ROS Navigator Challenge
 
-Welcome to the ROS Navigator Challenge – where code meets navigation! This competition requires participants to develop an efficient ROS-based navigation algorithm for a simulated TurtleBot in a dynamically generated maze. The goal is to autonomously guide your bot from the starting point to the centre of the maze with the fewest possible steps.
+Welcome to the ROS Navigator Challenge – where code meets navigation! This competition requires participants to develop an efficient ROS-based navigation algorithm for a simulated TurtleBot in a maze. The goal is to autonomously guide your bot from the starting point to the centre of the maze with the fewest possible steps.
 
 > **Code, Navigate, Conquer!**
 
