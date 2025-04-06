@@ -104,7 +104,7 @@ Pay particular attention to `/odom`, `/imu`, and `/scan` to generate appropriate
 
 ## Additional Commands for Experimentation
 
-After the simulation starts, you can further experiment with teleoperation, SLAM using Cartographer, and visualization using RViz:
+After the simulation starts, you can further experiment with teleoperation, SLAM using Cartographer, and visualization using RViz,:
 
 1. **Teleoperation:**  
    To manually control your TurtleBot, launch the teleop keyboard:
@@ -128,6 +128,8 @@ After the simulation starts, you can further experiment with teleoperation, SLAM
    rviz2 -d ros2_ws/src/TurtleBotMaze/turtlebot3_simulations/turtlebot3_gazebo/rviz/tb3_gazebo.rviz
    ```
    - ![RViz View](images/rviz_image.png)
+  
+**Also read official turtlebot3 documentation for more details**
 
 ## Competition Details
 
