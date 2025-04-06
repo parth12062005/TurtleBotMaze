@@ -164,7 +164,7 @@ After the simulation starts, you can further experiment with teleoperation, SLAM
 #### Round 2: Maze Navigation Challenge
 
 - **Task:** Submit your navigation solution as a Python script or ROS package.
-- **Maze Setup:** A random maze will be generated for each attempt. Your bot must navigate to the centre of the maze.
+- **Maze Setup:** A new maze will be generated for this round. Your bot must navigate to the centre of the maze.
 - **Attempts:** Each team is allowed two attempts per maze. The best attempt (with the fewest steps) will be considered for ranking.
 - **Timeout:** If the bot gets stuck for more than 30 seconds, the attempt is deemed invalid.
 - **Scoring:** 
