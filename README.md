@@ -57,6 +57,7 @@ Install dependencies and build the workspace:
 # Initialize rosdep if you haven't already
 sudo rosdep init
 rosdep update
+rosdep install --from-paths src --ignore-src -r -y
 
 # Install required Python packages
 pip3 install lark catkin_pkg empy==3.3.2
